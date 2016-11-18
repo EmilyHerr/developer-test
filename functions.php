@@ -8,7 +8,7 @@ if ($count > 0) {
 function byTheNumbers() {
     global $count;
     
-    $output = '<div class="numbers">';
+    $output = '<a href="#"></a><div class="numbers">';
     $output .= $count;
     $output .= '</div>';
     $count++;

@@ -55,9 +55,6 @@ ol li, ul li {
 }
 
 .body-content {
-    width: 75%;
-    /*padding: 15px;*/
-    float: left;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -108,7 +105,8 @@ footer a {
     background: #333333;
     margin: 5px;
     box-sizing: border-box;
-    padding: 10% 0;
+    padding: 0;
+    height: 282.5px;
 }
 
 .little-boxes .all-the-same .numbers {
@@ -121,6 +119,10 @@ footer a {
     color: #FFFFFF;
     top: calc(50% - 20px);
     left: calc(50% - 20px);
+}
+
+.clearfix {
+    clear: both;
 }
 
 /* tablet size */
