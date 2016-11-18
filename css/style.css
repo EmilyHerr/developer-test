@@ -1,0 +1,132 @@
+/** styles for dev test **/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+.uk-modal {
+    color: #222222;
+}
+
+ol li, ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.header {
+    color: #FFFFFF;
+    background: #FF570C;
+    background-size: cover;
+    text-align: center;
+    padding: 120px 10px;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+.header > *:not(a) {
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header > h1:before {
+    font-family: "FontAwesome";
+    content: "\f121";
+    padding-right: 10px;
+}
+
+.header > h1 + p {
+    font-size: 22px;
+}
+
+.wdac-container {
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    position: relative;
+}
+
+.body-content {
+    width: 75%;
+    /*padding: 15px;*/
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.wdac-sidebar {
+    width: 25%;
+    float: right;
+    background: #FAFAFA;
+    border: 1px solid #F0F0F0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #282828;
+    padding: 90px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px auto 0;
+    clear: both;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+.body-content p {
+    text-align: justify;
+}
+
+.begin {
+    position: absolute;
+    top: -50px;
+}
+
+.little-boxes {
+    display: block;
+    box-sizing: border-box;
+    background: #EEEEEE;
+}
+
+.little-boxes .all-the-same {
+    display: block;
+    position: relative;
+    width: calc(25% - 10px);
+    float: left;
+    background: #333333;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10% 0;
+}
+
+.little-boxes .all-the-same .numbers {
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    color: #FFFFFF;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+}
+
+/* tablet size */
+@media (max-width: 959px) {
+    main.body-content, aside.wdac-sidebar {
+        width: 100%;
+        float: none;
+    }
+}
