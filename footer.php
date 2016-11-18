@@ -11,7 +11,7 @@
             <li>The &lt;h1&gt; element is squashed on tablet and mobile. Decrease the font size on small devices (at least 2 breakpoints).</li>
             <li>Using CSS only, force the numbered boxes to remain perfect squares at any screen size.</li>
             <li>The numbered boxes should be in rows of 3 on tablet and rows of 2 on mobile.</li>
-            <li>Expand the anchor tag that is inside each numbered box to cover tne entirety of it. When a user hovers over the anchor tag, smoothly transition the background color of the BOX (not the anchor tag) into the orange used in the head</li>
+            <li>Expand the anchor tag that is inside each numbered box to cover tne entirety of it. When a user hovers over the anchor tag, smoothly transition the background color of the box into the orange used in the head</li>
             <li><b>Bonus:</b> When a user clicks a square, change the background color to blue (#0cb4ff). When they click on it again, change it back.</li>
             <li><b>Bonus:</b> The box container <span class="uk-text-danger" style="display: inline-block">.little-boxes</span> has a background on it, but it is not showing. Please make this background show using HTML/CSS</li>
         </ol>
