@@ -11,7 +11,7 @@ require("functions.php");
         <div class="header">
             <h1>WDAC Developer Test</h1>
             <p>HTML/CSS Test (30 Minutes)</p>
-            <a class="wdac-button" href="#wdac-instructions" data-uk-modal>View Instructions</a>
+           <a class="wdac-button" href="#wdac-instructions" data-uk-modal><div class="wdac-button button">View Instructions</div></a>
         </div>
         <div class="wdac-container">
             <a name="begin" class="begin"></a>
